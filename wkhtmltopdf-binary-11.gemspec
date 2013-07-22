@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "wkhtmltopdf-binary-11"
-  s.version = "0.0.0"
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Fort Hill Company"]
@@ -35,7 +35,8 @@ Gem::Specification.new do |s|
     "libexec/wkhtmltopdf.app/Contents/Resources/qt.conf",
     "libexec/wkhtmltopdf.app/Contents/Resources/qt_menu.nib/classes.nib",
     "libexec/wkhtmltopdf.app/Contents/Resources/qt_menu.nib/info.nib",
-    "libexec/wkhtmltopdf.app/Contents/Resources/qt_menu.nib/keyedobjects.nib"
+    "libexec/wkhtmltopdf.app/Contents/Resources/qt_menu.nib/keyedobjects.nib",
+    "wkhtmltopdf-binary-11.gemspec"
   ]
   s.homepage = "http://github.com/dbatshaw/wkhtmltopdf-binary-11"
   s.licenses = ["MIT"]
