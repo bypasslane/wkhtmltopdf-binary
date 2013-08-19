@@ -7,7 +7,7 @@ executable = case RbConfig::CONFIG["host_os"]
   when /linux/
     'wkhtmltopdf-linux-x86'
   when /darwin/
-    'wkhtmltopdf.app/Contents/MacOS/wkhtmltopdf'
+    'wkhtmltopdf-darwin-x86'
   else
     raise "Invalid platform. Must be running linux or intel-based Mac OS."
 end
