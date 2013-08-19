@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
+require 'rbconfig'
 
-executable = case RUBY_PLATFORM
+executable = case RbConfig::CONFIG["host_os"]
   when /64.*linux/
     'wkhtmltopdf-linux-amd64'
   when /linux/
