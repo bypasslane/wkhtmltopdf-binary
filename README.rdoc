@@ -1,6 +1,10 @@
 = wkhtmltopdf-binary-11
 
-Description goes here.
+This version uses wkhtmltopdf-0.10.0_rc2 due to 0.11.0_rc2 issues:
+* https://coderwall.com/p/aej2aq
+* https://code.google.com/p/wkhtmltopdf/issues/detail?id=886
+
+Go to https://code.google.com/p/wkhtmltopdf/downloads/list?can=1&q=0.10.*&colspec=Filename+Summary+Uploaded+ReleaseDate+Size+DownloadCount to check sources.
 
 == Contributing to wkhtmltopdf-binary-11
  
