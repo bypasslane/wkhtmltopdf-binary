@@ -1,13 +1,12 @@
 #!/usr/bin/env ruby
-require 'rbconfig'
 
-executable = case RbConfig::CONFIG["host_os"]
+executable = case RUBY_PLATFORM
   when /64.*linux/
     'wkhtmltopdf-linux-amd64'
   when /linux/
     'wkhtmltopdf-linux-x86'
   when /darwin/
-    'wkhtmltopdf-darwin-x86'
+    'wkhtmltopdf.app/Contents/MacOS/wkhtmltopdf'
   else
     raise "Invalid platform. Must be running linux or intel-based Mac OS."
 end
