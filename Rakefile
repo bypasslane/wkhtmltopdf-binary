@@ -14,12 +14,12 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "wkhtmltopdf-binary-11"
-  gem.homepage = "http://github.com/dbatshaw/wkhtmltopdf-binary-11"
+  gem.name = "wkhtmltopdf-binary"
+  gem.homepage = "https://github.com/khwangster/wkhtmltopdf-binary"
   gem.license = "MIT"
-  gem.summary = "Provides 0.11rc binaries for WKHTMLTOPDF project in an easily accessible package."
-  gem.email = "dev@forthillcompany.com"
-  gem.authors = ["Fort Hill Company"]
+  gem.summary = "Provides up-to-date binaries for WKHTMLTOPDF project in an easily accessible package."
+  gem.email = "khwang@outlook.com"
+  gem.authors = ["Kenneth Hwang"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
