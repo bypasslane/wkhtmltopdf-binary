@@ -6,7 +6,7 @@ executable = case RUBY_PLATFORM
   when /linux/
     'wkhtmltopdf-linux-x86'
   when /darwin/
-    'wkhtmltopdf.app/Contents/MacOS/wkhtmltopdf'
+    'wkhtmltopdf-darwin-x86'
   else
     raise "Invalid platform. Must be running linux or intel-based Mac OS."
 end
